@@ -1,6 +1,13 @@
+## Changelog of this fork
+
+- Checkbox better vertically aligned.
+- Header font weight reduced from 700 to 600.
+- Monospace font family includes `ui-monospace` to use SF Mono on MacOS even when not installed.
+
 ![header](assets/images/header-horizontal.jpg)
 
 # Notion for Typora
+
 A faithful reproduction of the original Notion theme, available in both dark mode and light mode.
 
 ## Styles
@@ -31,5 +38,3 @@ Original style             | Enhanced style
 ![light-view](assets/images/sidebar-light.png)
 ![dark-view](assets/images/sidebar-dark.png)
 ![darker-view](assets/images/sidebar-darker.png)
-
-
