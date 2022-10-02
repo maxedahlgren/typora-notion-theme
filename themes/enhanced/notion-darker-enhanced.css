@@ -623,7 +623,7 @@ pre.CodeMirror-line {
     backdrop-filter: saturate(120%) blur(20px) brightness(0.85);
     border: none!important;
     background: none;
-    background-color: --bg-color-dark;
+    background-color: var(--bg-color-dark);
 }
 
 .code-tooltip {
