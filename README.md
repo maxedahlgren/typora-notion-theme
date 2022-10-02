@@ -6,6 +6,7 @@
 - Give darker theme different color for sidebar footer similar to other themes.
 - Fix darker theme `--code-color` being incorrectly set.
 - Fix text style not changing for checked tasks.
+- H1 and H2 are underlined (similar to GitHub markdown).
 
 ![header](assets/images/header-horizontal.jpg)
 
