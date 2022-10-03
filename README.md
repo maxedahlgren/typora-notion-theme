@@ -4,6 +4,7 @@
 - Header font weight reduced from 700 to 600.
 - Monospace font family includes `ui-monospace` to use SF Mono on MacOS even when not installed.
 - Fix darker theme sidebar having incorrectly set background color.
+- Fix darker theme `--code-color` being incorrectly set.
 
 ![header](assets/images/header-horizontal.jpg)
 
