@@ -3,7 +3,7 @@
 - Checkbox better vertically aligned.
 - Header font weight reduced from 700 to 600.
 - Monospace font family includes `ui-monospace` to use SF Mono on MacOS even when not installed.
-- Fix darker theme sidebar having incorrectly set background color.
+- Give darker theme different color for sidebar footer similar to other themes.
 - Fix darker theme `--code-color` being incorrectly set.
 - Fix text style not changing for checked tasks.
 

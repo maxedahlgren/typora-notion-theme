@@ -676,7 +676,7 @@ footer {
     backdrop-filter: saturate(120%) blur(20px) brightness(0.85);
     border: none !important;
     background: none;
-    background-color: var(--bg-color-dark);
+    background-color: #1c1c1c;;
 }
 
 .code-tooltip {
