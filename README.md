@@ -5,6 +5,7 @@
 - Monospace font family includes `ui-monospace` to use SF Mono on MacOS even when not installed.
 - Fix darker theme sidebar having incorrectly set background color.
 - Fix darker theme `--code-color` being incorrectly set.
+- Fix text style not changing for checked tasks.
 
 ![header](assets/images/header-horizontal.jpg)
 

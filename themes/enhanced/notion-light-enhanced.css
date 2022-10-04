@@ -391,8 +391,9 @@ kbd {
     font-weight: 600;
 }
 
-#write .md-task-list-item>input[checked]::after {
+#write .md-task-list-item>input[checked] + p {
     text-decoration: line-through;
+    color: var(--text-color-secondary);
 }
 
 /* TODO */
