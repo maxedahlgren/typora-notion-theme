@@ -3,9 +3,11 @@
 - Checkbox better vertically aligned.
 - Header font weight reduced from 700 to 600.
 - Monospace font family includes `ui-monospace` to use SF Mono on MacOS even when not installed.
-- Give darker theme different color for sidebar footer similar to other themes.
 - Fix darker theme `--code-color` being incorrectly set.
 - Fix text style not changing for checked tasks.
+
+This branch has been personalised to my taste with changes that may not reflect the goal of emulating Notion's markdown:
+- Give darker theme different color for sidebar footer similar to other themes.
 - H1 and H2 are underlined (similar to GitHub markdown).
 
 ![header](assets/images/header-horizontal.jpg)
