@@ -31,7 +31,7 @@
     --window-border: 1px solid var(--bg-color);
     --focus-ring-color: transparent;
     --inline-code-bg-color: #2a2a28;
-    --inline-code-text-color: #ec5757;
+    --inline-code-text-color: var(--text-color);
 }
 
 html {
@@ -679,7 +679,7 @@ footer {
     backdrop-filter: saturate(120%) blur(20px) brightness(0.85);
     border: none !important;
     background: none;
-    background-color: #1c1c1c;;
+    background-color: #1c1c1c;
 }
 
 .code-tooltip {

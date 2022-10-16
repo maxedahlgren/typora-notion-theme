@@ -9,6 +9,7 @@
 This branch has been personalised to my taste with changes that may not reflect the goal of emulating Notion's markdown:
 - Give darker theme different color for sidebar footer similar to other themes.
 - H1 and H2 are underlined (similar to GitHub markdown).
+- Inline code in same colour as text for darker theme.
 
 ![header](assets/images/header-horizontal.jpg)
 
