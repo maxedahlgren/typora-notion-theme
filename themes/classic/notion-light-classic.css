@@ -1,14 +1,14 @@
 :root {
     --primary-color: #37352f;
     --bg-color: #ffffff;
-    --bg-color-dark: #f7f6f3;
-    --dark-trait: #e9e9e7;
-    --light-trait-100: #ecedec;
+    --bg-color-dark: #f3f3f3;
+    --dark-trait: #e9e9e9;
+    --light-trait-100: #ececec;
     --light-trait-200: #c70000;
-    --light-trait-300: #37352f;
-    --light-trait-400: #f7f6f3;
-    --text-color: #37352f;
-    --text-color-secondary: #73726e;
+    --light-trait-300: #353535;
+    --light-trait-400: #f3f3f3;
+    --text-color: #000000;
+    --text-color-secondary: #737373;
     --text-highlight-color: #fff;
     --text-highlight-bg: rgba(var(--primary-color-rgb), 0.3);
     --select-text-bg-color: #c0e5f4;
@@ -17,8 +17,8 @@
     --code-color: #9a6e3a;
     --border-radius: 4px;
     --font-size: 16px;
-    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
-    --monospace: 'SF Mono Medium', 'ui-monospace', 'Fira Code', 'Cousine', 'Consolas', monospace;
+    --font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
+    --monospace: 'Fira Code', 'SF Mono Medium', 'ui-monospace', 'Cousine', 'Consolas', monospace;
     --heading-char-color: var(--light-trait-400);
     --color-popover-bg-color: var(--text-color);
     --rawblock-edit-panel-bd: var(--bg-color-dark);
@@ -31,6 +31,8 @@
     --active-file-border-color: var(--bg-color);
     --window-border: 1px solid var(--bg-color);
     --focus-ring-color: transparent;
+    --inline-code-bg-color: #f2f2f2;
+    --inline-code-text-color: var(--text-color);
 }
 
 html {
@@ -42,12 +44,6 @@ body {
     -webkit-font-smoothing: antialiased;
     color: var(--text-color);
     line-height: 1.6;
-}
-
-code {
-    color: #ec5757;
-    background-color: #eeedeb;
-    padding: 0 2px 0 2px;
 }
 
 #write {
@@ -307,9 +303,10 @@ kbd {
 code,
 tt {
     border: none;
-    background-color: #f7f6f3;
+    color: var(--inline-code-text-color);
+    background-color: var(--inline-code-bg-color);
     border-radius: var(--border-radius);
-    padding: 2px 4px 0px 4px;
+    padding: 2px 4px 2px 4px;
     font-size: 0.975em;
     font-weight: medium;
     font-family: var(--monospace)
