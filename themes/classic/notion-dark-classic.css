@@ -254,6 +254,7 @@ blockquote {
     margin-right: 0px;
     border-left: 4px solid var(--text-color);
     padding: 10px 14px 7px 22px;
+    font-style: italic;
 }
 
 blockquote blockquote {
