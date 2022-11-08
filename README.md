@@ -10,11 +10,11 @@ This branch has been personalised to my taste with changes that may not reflect 
 - Give darker theme different color for sidebar footer similar to other themes.
 - H1 and H2 are underlined (similar to GitHub markdown).
 - Inline code in same colour as text for darker theme.
+- Tweaked inline code outline box padding.
 - Quote blocks are italicised.
-- Light theme changes to be used for exporting:
-  - Uses Source Sans Pro and Fira Code fonts.
+- Uses Source Sans Pro and Fira Code fonts.
+- Light theme changes to be used for printing:
   - Most colours made true grays.
-  - Tweaked code block colours and padding.
 
 ![header](assets/images/header-horizontal.jpg)
 
