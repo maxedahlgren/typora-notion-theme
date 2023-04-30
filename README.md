@@ -15,6 +15,7 @@ This branch has been personalised to my taste with changes that may not reflect 
 - Uses Source Sans Pro and Fira Code fonts.
 - Light theme changes to be used for printing:
   - Most colours made true grays.
+- Smaller max-widths for text to be more readable.
 
 ![header](assets/images/header-horizontal.jpg)
 
