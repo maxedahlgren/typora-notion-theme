@@ -32,6 +32,7 @@
     --focus-ring-color: transparent;
     --inline-code-bg-color: #2a2a28;
     --inline-code-text-color: #ec5757;
+    --mermaid-theme: dark;
 }
 
 html {

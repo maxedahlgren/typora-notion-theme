@@ -6,6 +6,7 @@
 - Fix darker theme sidebar having incorrectly set background color.
 - Fix darker theme `--code-color` being incorrectly set.
 - Fix text style not changing for checked tasks.
+- Use dark mermaid style in dark themes
 
 ![header](assets/images/header-horizontal.jpg)
 

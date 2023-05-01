@@ -31,6 +31,7 @@
     --active-file-border-color: var(--bg-color);
     --window-border: 1px solid var(--bg-color);
     --focus-ring-color: transparent;
+    --mermaid-theme: dark;
 }
 
 html {
