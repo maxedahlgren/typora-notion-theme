@@ -6,8 +6,8 @@
     --light-trait-100: #3d4145;
     --light-trait-300: #72706b;
     --light-trait-400: #37352f;
-    --text-color: #c1c0c1;
-    --text-color-secondary: #73726e;
+    --text-color: #cccccc;
+    --text-color-secondary: #a6a6a6;
     --text-highlight-color: #fff;
     --text-highlight-bg: rgba(var(--primary-color-rgb), 0.3);
     --select-text-bg-color: #2e5767;
@@ -249,11 +249,15 @@ mark {
 blockquote {
     margin-left: 1.75px;
     margin-right: 0px;
-    border-left: 4px solid var(--text-color);
+    border-left: 4px solid var(--text-color-secondary);
     padding: 10px 14px 7px 22px;
-    font-style: italic;
-    /* change the quote highlight */
-    /*     background-color: #252525; */
+    font-style: normal;
+    font-weight: 600;
+    color: var(--text-color-secondary);
+}
+
+blockquote strong {
+    font-weight: 900;
 }
 
 blockquote blockquote {

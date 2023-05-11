@@ -247,13 +247,19 @@ mark {
 blockquote {
     margin-left: 1.75px;
     margin-right: 0px;
-    border-left: 4px solid var(--text-color);
+    border-left: 4px solid var(--text-color-secondary);
     padding: 10px 14px 7px 22px;
-    font-style: italic;
+    font-style: normal;
+    font-weight: 600;
+    color: var(--text-color-secondary);
+}
+
+blockquote strong {
+    font-weight: 900;
 }
 
 blockquote blockquote {
-    padding-right: 0;
+    padding-right: 0px;
 }
 
 table {

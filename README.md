@@ -16,6 +16,7 @@ This branch has been personalised to my taste with changes that may not reflect 
 - Light theme changes to be used for printing:
   - Most colours made true grays.
 - Smaller max-widths for text to be more readable.
+- Quotes have different weight and color to differentiate better.
 
 ![header](assets/images/header-horizontal.jpg)
 
